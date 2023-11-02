@@ -1,0 +1,38 @@
+{% extends "Header.html" %}
+{% block title %}Codecf_Scraping{% endblock %}
+{% block content %}
+<html>
+    <body>
+            <h2>I have Made python webscraping script to get All Problem Statements and Solutions of any user for Any CodeChef Competition</h2>
+            <h3>You can download script from my github Page <a href="https://github.com/Vatsalparsaniya/Codechef_Scraping">here</a></h3>
+            <br>
+            
+            <h3>Code Overview </h3>
+            <h4 style="padding-left: 30px;">Getting Arguments :</h4>
+            <img src="\static\Arguments.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+            <h4 style="padding-left: 30px;">Fetching MetaData :</h4>
+            <img src="\static\MetaData.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+            <h4 style="padding-left: 30px;">Fetching Problem Statments :</h4>
+            <img src="\static\Problem_s.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+            <h4 style="padding-left: 30px;">Fetching Solution :</h4>
+            <img src="\static\Solution_F.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+
+            <h2 id="demo">Demo :</h2>
+            <h3>Script  will give you two separate folder<h3>
+            <h4 style="padding-left: 30px;">1) for Problem Statements (Name : "Problem_Statement")</h4>
+            <h4 style="padding-left: 30px;">2) for Solutions (Name : "Solutions")</h4>
+            <br>
+            <h4>RUN : python CodeChef_Scraping.py -c [CONTEST NAME] -u [USER NAME]</h4>
+            <h4 style="padding-left: 30px;">  Ex : python CodeChef_Scraping.py -c AUG19B -u vatsal1999</h4>
+            <img src="\static\1.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+            <h4>OUTPUT :</h4>
+            <h4 style="padding-left: 30px;">Contest Detail :</h4>
+            <img src="\static\2.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+            <h4 style="padding-left: 30px;">Problem Statement Scraping :</h4>
+            <img src="\static\3.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+            <h4 style="padding-left: 30px;">Solutions Scraping :</h4>
+            <img src="\static\4.png" alt="" style=" width: 100%; height: auto;  max-width: 80%;">
+
+    </body>
+</html>
+{% endblock %}
